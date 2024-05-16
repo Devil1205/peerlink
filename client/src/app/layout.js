@@ -14,8 +14,8 @@ import NextTopLoader from 'nextjs-toploader';
 const getYear = new Date().getFullYear()
 
 export const metadata = {
-  title: `igit mca website ${getYear}`,
-  description: 'This website is designed for junior students of IGIT MCA ',
+  title: `peerLink ${getYear}`,
+  description: 'peerLink is designed to keep students connected with their alumnis ',
 }
 
 export default function RootLayout({ children }) {

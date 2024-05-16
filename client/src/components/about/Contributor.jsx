@@ -9,14 +9,14 @@ import GithubIcon from "@mui/icons-material/GitHub"
 const Contributor = ({ contributorId, className }) => {
   // call API & return user Data
   if (!contributorId) {
-    contributorId = "655669bc41a72f015539174d";
+    contributorId = "";
   }
   
   const [contributor, setContributor] = useState(null);
   const { name } = contributor != null && contributor !== "" && contributor.userDetails;
   const {linkedInLink, githubLink} = contributor != null && contributor !== "" && contributor.userDetails.socialLinks;
   const baseApi = process.env.NEXT_PUBLIC_BASE_URL;
-  const url = `${baseApi}/api/user/fetchUserById?userId=${contributorId}`;
+  const url = `${baseApi}/api/user/fetchContributor/${contributorId}`;
 
   const fetchUserById = async () => {
     try {
@@ -25,7 +25,7 @@ const Contributor = ({ contributorId, className }) => {
       });
       const response = await fetchUser.json();
       if (response.success) {
-        setContributor(response.data.user);
+        setContributor(response.user);
         return;
       }
       setContributor("");

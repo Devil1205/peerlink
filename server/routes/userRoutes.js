@@ -257,4 +257,24 @@ router.get("/fetchUser", authorizeUser, async (req, res) => {
   }
 });
 
+//ROUTE 5 :: fetch contributor
+router.get("/fetchContributor/:id", async (req, res) => {
+  try {
+    const id = req.params.id;
+    const findUser = await User.findById(id).select(
+      "-userDetails.password"
+    );
+    res.json({
+      success: true,
+      message: "user data sent",
+      user: findUser,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Some internal server occurred! Try after some time",
+    });
+  }
+});
+
 module.exports = router;

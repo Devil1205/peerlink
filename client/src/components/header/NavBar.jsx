@@ -50,7 +50,7 @@ const NavBar = () => {
           {/* Logo */}
           <h1 className={`${styles.logo}`}>
             <Link shallow={true} href="/" className={`${styles.link_text}`}>
-              IGIT-MCA
+              peerLink
             </Link>
           </h1>
 
