@@ -9,7 +9,7 @@ const brevo = require("@getbrevo/brevo");
 const smtpUser = process.env.SMTP_USER; // sender email
 const apiKey_VALUE = process.env.BREVO_API_KEY;
 
-// const senderUserName = "IGIT MCA Commmunity";
+// const senderUserName = "ADGIPS BTech Commmunity";
 
 let defaultClient = brevo.ApiClient.instance;
 
@@ -34,7 +34,7 @@ const emailNewUser = async (
         <body>
             <p>
                 Dear ${userName}, 
-                thank you for registering to IGIT MCA Community. Complete your profile by updating your other profile details by clicking on the profile icon.
+                thank you for registering to ADGIPS BTech Community. Complete your profile by updating your other profile details by clicking on the profile icon.
                 We will let you know when Our admin verify your account.
                 <br />
                 You can get all study materials & including question, notices in our community website. You can also better learn about your classmates, seniors & juniors as well there.
@@ -44,7 +44,7 @@ const emailNewUser = async (
             </p>
             <br />
             <p>
-            Learn more about us at <a href="https://igit-mca.vercel.app">https://igit-mca.vercel.app</a>
+            Learn more about us at <a href="https://ADGIPS-BTech.vercel.app">https://ADGIPS-BTech.vercel.app</a>
             </p>
         </body>
     </html>`;
@@ -84,7 +84,7 @@ const sendAccountVerifiedMail = async (email, userName) => {
         <body>
             <p>
                 Dear ${userName}, 
-                Congratulations! You are now a verified member of IGIT MCA Community. Thank you for being part of the MCA community.
+                Congratulations! You are now a verified member of ADGIPS BTech Community. Thank you for being part of the BTech community.
                 <br />
                 You can get all study materials & including question, notices in our community website. You can also better learn about your classmates, seniors & juniors as well there.
                 <br />
@@ -93,7 +93,7 @@ const sendAccountVerifiedMail = async (email, userName) => {
             </p>
             <br />
             <p>
-              Learn more about us at <a href="https://igit-mca.vercel.app">https://igit-mca.vercel.app</a>
+              Learn more about us at <a href="https://ADGIPS-BTech.vercel.app">https://ADGIPS-BTech.vercel.app</a>
             </p>
         </body>
     </html>
@@ -136,7 +136,7 @@ const emailAdminNewUserRegistered = async (adminEmail, userDetails) => {
         <body>
             <p>
                 Dear Admin, 
-                Someone with following details has been newly registered to Igit-Mca-community.
+                Someone with following details has been newly registered to ADGIPS-BTech-community.
             </p>
             <br />
             <p>
@@ -146,7 +146,7 @@ const emailAdminNewUserRegistered = async (adminEmail, userDetails) => {
             </p>
             <br />
             <p>
-              Visit & verify user <a href="https://igit-mca.vercel.app">https://igit-mca.vercel.app/admin/user</a>
+              Visit & verify user <a href="https://ADGIPS-BTech.vercel.app">https://ADGIPS-BTech.vercel.app/admin/user</a>
             </p>
         </body>
     </html> 

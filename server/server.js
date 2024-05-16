@@ -26,7 +26,7 @@ app.use(cors());
 app.use(express.json());
 
 const homeResponseData = {
-    response : "Welcome to IGIT MCA server."
+    response : "Welcome to ADGIPS BTech server."
 }
 
 // -------- ALL ROUTES ----------------

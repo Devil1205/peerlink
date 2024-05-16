@@ -68,7 +68,7 @@ const Users = () => {
   return (
     <div>
       <div className='border-2 border-sky-500 border-solid mt-1 mb-1 p-1' >
-        <h5>Entire MCA Users status </h5>
+        <h5>Entire BTech Users status </h5>
         <ul className='flex list-none' >
           <li>Total users  </li>
         </ul>

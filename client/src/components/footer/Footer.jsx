@@ -15,9 +15,9 @@ const Footer = () => {
         <div className={styles.footer_top}>
           {/* 1st div */}
           <div className={`${styles.footer_item} ${styles.footer_item1} `}>
-            <h4 className={styles.footer_link_heading}>MCA</h4>
+            <h4 className={styles.footer_link_heading}>BTech</h4>
             <p>
-              Welcome to IGIT MCA Batch Page. This page is designed in view of
+              Welcome to ADGIPS BTech Batch Page. This page is designed in view of
               junior for interacting with seniors. They can also view various
               resources inlcuding notes & wifi passwords.
             </p>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <li>
                   <Link
                     target="_blank"
-                    href={"https://firebasestorage.googleapis.com/v0/b/mca-community.appspot.com/o/documents%2Fhowto%2Fdocument.pdf?alt=media&token=9bdc2dc2-04c1-4273-8fb9-0479b077b490"}
+                    href={"https://firebasestorage.googleapis.com/v0/b/BTech-community.appspot.com/o/documents%2Fhowto%2Fdocument.pdf?alt=media&token=9bdc2dc2-04c1-4273-8fb9-0479b077b490"}
                   >
                     Docs
                   </Link>
@@ -76,14 +76,14 @@ const Footer = () => {
             <h4 className={styles.footer_link_heading}>Important Links</h4>
             <ul>
               <li>
-                <Link target="_blank" href={"https://igitsarang.ac.in/"}>
-                  IGIT Website{" "}
+                <Link target="_blank" href={"https://ADGIPSsarang.ac.in/"}>
+                  ADGIPS Website{" "}
                   <OpenInNewIcon className={styles.font_size_inherit} />{" "}
                 </Link>
               </li>
               <li>
-                <Link target="_blank" href={"https://igit.icrp.in/academic/"}>
-                  IGIT payment portal{" "}
+                <Link target="_blank" href={"https://ADGIPS.icrp.in/academic/"}>
+                  ADGIPS payment portal{" "}
                   <OpenInNewIcon className={styles.font_size_inherit} />{" "}
                 </Link>
               </li>
@@ -91,10 +91,10 @@ const Footer = () => {
                 <Link
                   target="_blank"
                   href={
-                    "https://www.linkedin.com/school/indira-gandhi-institute-of-technology-igit-sarang/"
+                    "https://www.linkedin.com/school/indira-gandhi-institute-of-technology-ADGIPS-sarang/"
                   }
                 >
-                  IGIT LinkedIn page{" "}
+                  ADGIPS LinkedIn page{" "}
                   <OpenInNewIcon className={styles.font_size_inherit} />
                 </Link>
               </li>
@@ -115,12 +115,12 @@ const Footer = () => {
             <h4 className={`${styles.footer_link_heading} !mb-0`}>Contact Us</h4>
             <ul>
               <li>
-                <p>igitmcacommunity@gmail.com</p>
+                <p>ADGIPSBTechcommunity@gmail.com</p>
               </li>
               <li>
                 <p className={styles.technical_issue_text}>
                   For any technical issues contact to your CR or mail to {" "}
-                  <span>satyaprofessional99@gmail.com</span>
+                  <span>RohitPullkitIshanAryan@gmail.com</span>
                 </p>
               </li>
             </ul>
@@ -137,7 +137,7 @@ const Footer = () => {
         {/* <hr style={{backgroundColor:"grey", height:"1px"}} /> */}
         <div className={styles.footer_bottom}>
           <p>
-            Copyrights ©{`${currentYear}`} igit MCA. All rights reserved ||
+            Copyrights ©{`${currentYear}`} ADGIPS BTech. All rights reserved ||
             Designed & developed by{" "}
             <span>
               <Link
@@ -145,7 +145,7 @@ const Footer = () => {
                 className={styles.link_text}
                 href={"https://linktr.ee/satya_it"}
               >
-                Satyanarayan
+                Rohit , Pullkit , Ishan , Aryan
               </Link>
             </span>
           </p>

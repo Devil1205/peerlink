@@ -257,7 +257,7 @@ const RegistrationForm = () => {
                     label="Email"
                     value={details.email}
                     variant="filled"
-                    placeholder="ex: mca41@gmail.com"
+                    placeholder="ex: BTech41@gmail.com"
                     disabled
                   />
                   <TextField
@@ -625,7 +625,7 @@ const RegistrationForm = () => {
                   My personnel information such as name, mobile number & other
                   details are going to be used within our department circle only
                   for better coordination purpose & some of {"information's"}{" "}
-                  such as name & field of interest will displayed on igit-MCA
+                  such as name & field of interest will displayed on ADGIPS-BTech
                   website.
                 </Typography>
                 <br />

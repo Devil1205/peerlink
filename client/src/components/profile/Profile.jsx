@@ -119,7 +119,7 @@ const Profile = () => {
                     label="Email"
                     value={email}
                     variant="filled"
-                    placeholder="ex: mca41@gmail.com"
+                    placeholder="ex: BTech41@gmail.com"
                     disabled
                   />
 

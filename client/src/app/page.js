@@ -13,7 +13,7 @@ export default function Home() {
       <NoticeSection />
       <Notes />
       <MemoriesSection />
-      <MainCoordinators />
+      {/* <MainCoordinators /> */}
     </main>
   )
 }

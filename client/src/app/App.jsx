@@ -44,7 +44,7 @@ const App = ({ children }) => {
                             <Link
                                 className='text-white underline'
                                 target="_blank"
-                                href={"https://firebasestorage.googleapis.com/v0/b/mca-community.appspot.com/o/documents%2Fhowto%2Fdocument.pdf?alt=media&token=9bdc2dc2-04c1-4273-8fb9-0479b077b490"}
+                                href={"https://firebasestorage.googleapis.com/v0/b/BTech-community.appspot.com/o/documents%2Fhowto%2Fdocument.pdf?alt=media&token=9bdc2dc2-04c1-4273-8fb9-0479b077b490"}
                             >
                                Learn more
                             </Link>

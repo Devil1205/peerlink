@@ -1,18 +1,18 @@
 
-# IGIT MCA Frontend Web Application
+# ADGIPS BTech Frontend Web Application
 
 This README describes a basic folder structure of our frontend application & also describes a little bit about API interactions 
 
 **Deployed on:** [vercel.com](https://vercel.com)
 
 Check app running live @ 👉 
-[https://igit-mca.vercel.app](https://igit-mca.vercel.app)
+[https://ADGIPS-BTech.vercel.app](https://ADGIPS-BTech.vercel.app)
 
 ## Server 
 
-Server 1  👉https://igit-mca-server.cyclic.app
+Server 1  👉https://ADGIPS-BTech-server.cyclic.app
 
-Server 2  👉https://igit-community.onrender.com
+Server 2  👉https://ADGIPS-community.onrender.com
 
 
 ## Table of Contents
@@ -26,7 +26,7 @@ Server 2  👉https://igit-community.onrender.com
 
 ## Introduction
 
-This application interacts with API of [igit backend](https://github.com/satyadalei/igit-mca-backend) for performing CRUD operations on a set of things, such as users registration, login, new batch create etc.
+This application interacts with API of [ADGIPS backend](https://github.com/satyadalei/ADGIPS-BTech-backend) for performing CRUD operations on a set of things, such as users registration, login, new batch create etc.
 
 ## Technologies Used
 [![](https://skillicons.dev/icons?i=react,html,css,javascript,next,materialui,firebase)](https://skillicons.dev)
@@ -51,8 +51,8 @@ This application interacts with API of [igit backend](https://github.com/satyada
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/satyadalei/igit-mca-frontend.git
-   cd igit-mca-frontend
+   git clone https://github.com/satyadalei/ADGIPS-BTech-frontend.git
+   cd ADGIPS-BTech-frontend
    ```
 
 2. Install dependencies:

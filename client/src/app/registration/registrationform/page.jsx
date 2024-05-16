@@ -184,7 +184,7 @@ const RegistrationForm = () => {
                     label="Email"
                     value={details.email}
                     variant="filled"
-                    placeholder="ex: mca41@gmail.com"
+                    placeholder="ex: BTech41@gmail.com"
                     disabled
                   />
                   {/* ---- Full name ---- */}
@@ -275,7 +275,7 @@ const RegistrationForm = () => {
                   label="I agree!"
                 />
                 <Typography>
-                 I am aware that I am registering to the IGIT-MCA community website which is completely managed by only MCA students. It is not linked to IGIT College or CSEA department officially.
+                 I am aware that I am registering to the ADGIPS-BTech community website which is completely managed by only BTech students. It is not linked to ADGIPS College or CSEA department officially.
                 </Typography>
                 <br />
                 <Button

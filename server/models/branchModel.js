@@ -5,7 +5,7 @@ const { Schema } = mongoose;
 const branchSchema = new Schema({
     branch: {
         type : String,
-        default : "mca"
+        default : "BTech"
     },
     // allBatchIds : [{ type: Schema.Types.ObjectId, ref: 'Batch' }]
 })

@@ -6,7 +6,7 @@ This README describes how our backend application interacts with frontend applic
 **Deployed on:** [render.com](https://render.com)
 
 Check Api status @ 👉 
-[https://igit-mca-backend.onrender.com](https://igit-mca-backend.onrender.com/)
+[https://ADGIPS-BTech-backend.onrender.com](https://ADGIPS-BTech-backend.onrender.com/)
 
 ## Table of Contents
 
@@ -35,8 +35,8 @@ This backend application provides an API for performing CRUD operations on a set
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/satyadalei/igit-mca-backend.git
-   cd igit-mca-backend
+   git clone https://github.com/satyadalei/ADGIPS-BTech-backend.git
+   cd ADGIPS-BTech-backend
    ```
 
 2. Install dependencies:

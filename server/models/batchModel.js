@@ -24,7 +24,7 @@ const batchSchema = new Schema({
     },
     branch : {
         type : String,
-        default : "mca"
+        default : "BTech"
     }
 })
 

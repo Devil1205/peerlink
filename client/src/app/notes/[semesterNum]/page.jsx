@@ -21,7 +21,7 @@ const Page = ({ params }) => {
   const {semester1, semester2, semester3, semester4} = semester;
 
   const [isPageExist, setIsPageExist] = useState(null);
-  const semNum = params.semesterNum[semesterNum.length-1] // finding last digit of route
+  const semNum = params.semesterNum[semesterNum.length-1] // finding last dADGIPS of route
  
   useEffect(() => {
       for (let i = 0; i < allSemesters.length; i++) {

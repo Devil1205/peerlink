@@ -36,7 +36,7 @@ router.post("/createNewBatch", authorizeUser, async (req, res) => {
           await newBatch.save();
           // add that batch to the corresponding branch list
           // step1 : Check if that branch already exists or not?
-          const isBranchExists = await Branch.findOne({ branch: "mca" });
+          const isBranchExists = await Branch.findOne({ branch: "BTech" });
           if (isBranchExists) {
             // branch already exists so just add new batch to existing branch
             // isBranchExists.allBatchIds.push(newBatch._id); // not use full
@@ -48,7 +48,7 @@ router.post("/createNewBatch", authorizeUser, async (req, res) => {
             });
           } else {
             // create new branch & then add the batches Id to it
-            let branch = "mca"; // new branch name mca :- It will be created only once
+            let branch = "BTech"; // new branch name BTech :- It will be created only once
             const newBranch = new Branch({
               branch: branch,
               // allBatchIds: [newBatch._id],// not use full
@@ -85,7 +85,7 @@ router.post("/createNewBatch", authorizeUser, async (req, res) => {
 // this route sends lists of batches with all details :: authorization required here!!
 router.get("/fetchAllBatch", authorizeUser, async (req, res) => {
   try {
-    const findAllBatch = await Batch.find({ branch: "mca" });
+    const findAllBatch = await Batch.find({ branch: "BTech" });
     res.json({
       success: true,
       message: "All batches sent",
@@ -103,7 +103,7 @@ router.get("/fetchAllBatch", authorizeUser, async (req, res) => {
 // this route sends lists of batches with starting year & ending year :: No authorization required here! (For registration purpose only)
 router.get("/fetchBatchLists", async (req, res) => {
   try {
-    const findAllBatchLists = await Batch.find({ branch: "mca" }).select({
+    const findAllBatchLists = await Batch.find({ branch: "BTech" }).select({
       studentLists: 0,
       // strength: 0,
       branch: 0,

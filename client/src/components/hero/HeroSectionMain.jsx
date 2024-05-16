@@ -18,14 +18,14 @@ const HeroSectionMain = () => {
           {/* left_section */}
              <div className={`${styles.left_section} ${styles.hero_main_items}`} >
                   <h1 className={`${styles.hero_heading} font-bold`} >
-                      Welcome to IGIT <br />
-                      <span className='text-sky-500' >MCA</span> student <br />
+                      Welcome to ADGIPS <br />
+                      <span className='text-sky-500' >BTech</span> student <br />
                       website.
                    </h1>
-                   <p className='text-sm' >Managed & maintained by <span className='text-sky-500' >MCA</span> students</p>
+                   <p className='text-sm' >Managed & maintained by <span className='text-sky-500' >BTech</span> students</p>
                   <TypeWriter />
                    <p className={styles.hero_text} >
-                   This website is developed to keep all MCA students at one place. It includes all the semester notes, questions and assignments. This website will help to connect their seniors, juniors & classmates.
+                   This website is developed to keep all BTech students at one place. It includes all the semester notes, questions and assignments. This website will help to connect their seniors, juniors & classmates.
                    </p>
                    <div>
                        <Link className={styles.hero_btn} href={"/batch"} >
